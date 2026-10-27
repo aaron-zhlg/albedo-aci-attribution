@@ -13,17 +13,19 @@ them (in particular ACI from recent emission cuts) be shown to dominate?
 | Stage | Status |
 | --- | --- |
 | 1. Literature review | Done (Oct 2026) — [`literature/review.md`](literature/review.md) |
-| 2. Pick a research direction | Open — candidates in review §7 |
+| 2. Pick a research direction | In progress — four topic proposals in [`proposals.md`](proposals.md), out for expert feedback |
 | 3. Data and analysis | Not started |
 
 ## Layout
 
 ```
+proposals.md       candidate research topics (for expert review)
 literature/
   review.md        literature review (English), with references table
   figures/         figures used in the review
   papers/          PDFs of the reviewed papers (private copies; do not redistribute)
   fulltext/        plain-text extracts of papers/, for grep and agent search
+  notes/           working notes (initial Chinese reading list)
 scripts/
   extract_text.py  regenerates literature/fulltext from literature/papers (needs pypdf)
 ```
