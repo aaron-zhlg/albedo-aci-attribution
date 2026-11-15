@@ -1,0 +1,4 @@
+# Only docker/ and scripts/ go into the image; keeps data/ and .env out of the build context.
+*
+!docker/
+!scripts/
