@@ -1,0 +1,33 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # data access
+  - earthaccess
+  - cdsapi>=0.7.4
+  - requests
+  - curl
+  - wget
+  - unzip
+  # file formats
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - pyhdf
+  - zarr
+  - cdo
+  - nco
+  # analysis
+  - numpy
+  - pandas
+  - xarray
+  - dask
+  - scipy
+  - statsmodels
+  - linearmodels
+  - scikit-learn
+  - matplotlib
+  - cartopy
+  - tqdm
+  - jupyterlab
