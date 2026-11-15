@@ -13,12 +13,24 @@ them (in particular ACI from recent emission cuts) be shown to dominate?
 | Stage | Status |
 | --- | --- |
 | 1. Literature review | Done (Oct 2026) — [`literature/review.md`](literature/review.md) |
-| 2. Pick a research direction | In progress — four topic proposals in [`proposals.md`](proposals.md), out for expert feedback |
-| 3. Data and analysis | Not started |
+| 2. Pick a research direction | Done (Nov 2026) — two topics selected from [`proposals.md`](proposals.md) after expert feedback |
+| 3. Data preparation | Ready to run — Docker environment and download scripts in each topic folder |
+| 4. Analysis | Not started |
+
+## Topics
+
+Each topic is self-contained (own Docker image, data scripts and README) and can be committed separately.
+
+| Folder | Question | Data | Proposal |
+| --- | --- | --- | --- |
+| [`china-clean-air-clouds/`](china-clean-air-clouds/) | Did China's SO₂ rise and fall leave a fingerprint on NW Pacific clouds? | ~0.4 TB | [doc](https://claude.ai/artifact/E6Q8dDAVfjaFwty1NUsCeS) |
+| [`aci-decomposition/`](aci-decomposition/) | Which part of ACI — Twomey, cloud water or cover — sets the albedo response? | ~3.5–4 TB | [doc](https://claude.ai/artifact/QMCKtt1zFbY3uVimQuoB4c) |
 
 ## Layout
 
 ```
+china-clean-air-clouds/   topic: China emission cuts and NW Pacific clouds (Docker + data scripts)
+aci-decomposition/        topic: Twomey vs cloud-water vs cloud-cover decomposition (Docker + data scripts)
 proposals.md       candidate research topics (for expert review)
 literature/
   review.md        literature review (English), with references table
