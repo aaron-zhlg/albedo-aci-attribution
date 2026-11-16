@@ -10,5 +10,4 @@ THREADS="${THREADS:-8}"
 BBOX="${BBOX:-40,-10,180,60}"
 CDS_AREA="${CDS_AREA:-60,40,-10,180}"
 
-OMI_VERSION="${OMI_VERSION:-003}"
-CEDS_RECORD="${CEDS_RECORD:-12803197}"   # Zenodo record of CEDS v_2024_07_08
+# Download addresses, dataset IDs and versions are in .env (see .env.example).

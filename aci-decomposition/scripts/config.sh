@@ -17,5 +17,4 @@ SHIP_END="${SHIP_END:-2023-12-31}"
 # Test C (China's emission cuts) uses CLARA-A3 back to 1980.
 CLARA_START_YEAR="${CLARA_START_YEAR:-1980}"
 
-OMI_VERSION="${OMI_VERSION:-003}"
-CEDS_RECORD="${CEDS_RECORD:-12803197}"   # Zenodo record of CEDS v_2024_07_08
+# Download addresses, dataset IDs and versions are in .env (see .env.example).

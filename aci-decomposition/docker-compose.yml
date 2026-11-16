@@ -6,8 +6,8 @@ services:
     image: albedo/aci-decomposition:latest
     env_file: .env
     volumes:
-      # DATA_DIR (set in .env) is the host folder that receives the data, e.g. D:/climate-data/aci
-      - ${DATA_DIR:-./data}:/data
+      # DATA_PATH (set in .env) is the host folder that receives the data, e.g. D:/climate-data/aci
+      - ${DATA_PATH:-./data}:/data
       - ./scripts:/work/scripts
     working_dir: /work
 
@@ -15,7 +15,7 @@ services:
     image: albedo/aci-decomposition:latest
     env_file: .env
     volumes:
-      - ${DATA_DIR:-./data}:/data
+      - ${DATA_PATH:-./data}:/data
       - .:/work
     working_dir: /work
     ports:
